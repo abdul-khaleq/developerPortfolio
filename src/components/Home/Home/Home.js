@@ -10,10 +10,10 @@ const Home = () => {
     return (
         <React.Fragment>
             <Navigation></Navigation>
-            <ParticlesBackground></ParticlesBackground>
+            {/* <ParticlesBackground></ParticlesBackground> */}
             <Banner></Banner>
-            <About></About>
             <Projects></Projects>
+            <About></About>
             {/* <Skills></Skills> */}
         </React.Fragment>
     );
