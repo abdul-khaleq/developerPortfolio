@@ -32,8 +32,16 @@ const Projects = () => {
     const classes = useStyles();
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <Container>
-                <Typography gutterBottom variant="h4" component="div">
+            <Container sx={{ py: 3 }}>
+                <Typography
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    gutterBottom variant="h4" component="div">
                     Projects
                 </Typography>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} >
@@ -126,7 +134,6 @@ const Projects = () => {
 
 
                 </Grid>
-                <br /><br /><br />
             </Container>
 
         </Box>

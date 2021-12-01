@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Navigation from '../Navigation/Navigation';
@@ -12,9 +13,11 @@ const Home = () => {
             <Navigation></Navigation>
             {/* <ParticlesBackground></ParticlesBackground> */}
             <Banner></Banner>
-            <Projects></Projects>
             <About></About>
+            <Projects></Projects>
+
             {/* <Skills></Skills> */}
+            <Footer></Footer>
         </React.Fragment>
     );
 };
